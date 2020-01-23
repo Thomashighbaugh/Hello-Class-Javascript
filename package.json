@@ -1,0 +1,11 @@
+{
+  "name": "Assignment0",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Thomashighbaugh/Hello-Class-Javascript.git",
+  "author": "Thomas Leon Highbaugh <thighbaugh@zoho.com>",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^1.19.1"
+  }
+}
