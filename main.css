@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css?family=Concert+One|Permanent+Marker|Press+Start+2P&display=swap");
+body {
+  background-color: #17161b;
+  background-image: url("data:image/svg+xml,%3Csvg width='32' height='64' viewBox='0 0 32 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 28h20V16h-4v8H4V4h28v28h-4V8H8v12h4v-8h12v20H0v-4zm12 8h20v4H16v24H0v-4h12V36zm16 12h-4v12h8v4H20V44h12v12h-4v-8zM0 36h8v20H0v-4h4V40H0v-4z' fill='%23343a40' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+  font-family: "Concert One", monospace;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+.jumbotron {
+  width: 100%;
+  min-height: 45vh;
+  background: #17161b;
+  border-top: 0.25rem solid #343a40;
+  border-bottom: 0.25rem solid #343a40;
+  color: #cccccc;
+  margin-top: 10%;
+  text-align: center;
+  display: block;
+  background: url("https://avatars3.githubusercontent.com/u/32242061?s=460&v=4");
+  background-position: center;
+  background-repeat: repeat-x;
+  background-color: #17161b;
+}
+
+nav {
+  color: #44ddff;
+  font-family: "Press Start 2P", monospace;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  text-decoration: none;
+  text-align: center;
+  padding: 1rem;
+  height: 1.4rem;
+}
+
+.nav-link {
+  color: #cccccc;
+  text-decoration: none;
+  font-family: "Press Start 2P", monospace;
+}
+button {
+  background: #17161B;
+  border: #8265ff solid 0.125rem;
+  width: auto;
+  text-align: center;
+  padding: 0.5rem;
+  margin-left: 3rem;
+  border-radius: 10px;
+}
+a:hover, a:visited{
+  color: #FFD479;
+}
+
+.title {
+  font-size: 5rem;
+  background: #17161b;
+  border-radius: 15px;
+  margin-left: 10%;
+  width: 75%;
+}
+.name {
+  font-size: 2.5rem;
+  font-family: "Press Start 2P", monospace;
+  color: #8265ff;
+}
+.active{
+  text-decoration: underline;
+  color: #8265FF;
+}
+
+.container{
+  background: #17161B;
+  color: #cccccc;;
+  font-family: 'Concert One', monospace;
+  margin: 5%;
+  height: auto;
+  width: auto;
+  border: 0.25rem double #343a40;
+  outline: 0.25rem double #343a40;
+}
+.about-title{
+  text-align: center;
+  font-size: 3rem;
+
+}
+
+.about-body{
+  font-size: 2rem;
+  display: block;
+}
+ul{
+  padding-left: 15%;
+  list-style: inside;
+}
+
+.about-section-title{
+  text-align: center;
+  color: #8265FF;
+  font-family: 'Press Start 2P', monospace;
+}
+
+.about-body-text{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+hr{
+  width: 50%;
+  border-bottom: #343a40 solid 0.5rem;
+}
+blockquote{
+  color: #8265FF;
+  font-size: 1.25rem;
+  font-family: "Press Start 2P", monospace;
+  margin-left: 25%;
+  border: double 0.75rem #8265ff;
+  margin-right: 25%;
+  padding: 1.5rem;
+  background: #343a40;
+  text-shadow: 5px 8px #17161B;
+
+}
+.blockquote-author{
+text-align: right;
+  font-family: 'Concert One', monospace;
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  margin-right: 25%;
+}
+.contact-title{
+  font-size: 3rem;
+  text-align: center;
+}
+.free{
+  color: #cccccc;
+}
+.bismarck{
+  width: 80%;
+  margin-left: 10%;
+}
+#bis3{
+  max-width: 80%;
+  margin-left: 10%;
+}
+#bis2{
+  margin-left: 20%;
+  margin-bottom: 3rem;
+}
+
+.bismarck-text{
+  color: #8265FF;
+}
