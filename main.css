@@ -40,7 +40,7 @@ nav {
   font-family: "Press Start 2P", monospace;
 }
 button {
-  background: #17161B;
+  background: #17161b;
   border: #8265ff solid 0.125rem;
   width: auto;
   text-align: center;
@@ -48,8 +48,9 @@ button {
   margin-left: 3rem;
   border-radius: 10px;
 }
-a:hover, a:visited{
-  color: #FFD479;
+a:hover,
+a:visited {
+  color: #ffd479;
 }
 
 .title {
@@ -64,52 +65,51 @@ a:hover, a:visited{
   font-family: "Press Start 2P", monospace;
   color: #8265ff;
 }
-.active{
+.active {
   text-decoration: underline;
-  color: #8265FF;
+  color: #8265ff;
 }
 
-.container{
-  background: #17161B;
-  color: #cccccc;;
-  font-family: 'Concert One', monospace;
+.container {
+  background: #17161b;
+  color: #cccccc;
+  font-family: "Concert One", monospace;
   margin: 5%;
   height: auto;
   width: auto;
   border: 0.25rem double #343a40;
   outline: 0.25rem double #343a40;
 }
-.about-title{
+.about-title {
   text-align: center;
   font-size: 3rem;
-
 }
 
-.about-body{
+.about-body {
   font-size: 2rem;
   display: block;
 }
-ul{
+ul {
   padding-left: 15%;
   list-style: inside;
 }
 
-.about-section-title{
+.about-section-title {
   text-align: center;
-  color: #8265FF;
-  font-family: 'Press Start 2P', monospace;
+  color: #8265ff;
+  font-family: "Press Start 2P", monospace;
 }
 
-.about-body-text{
+.about-body-text {
   margin-left: 15%;
   margin-right: 15%;
 }
-hr{
+hr {
   width: 50%;
   border-bottom: #343a40 solid 0.5rem;
 }
-blockquote{
-  color: #8265FF;
+blockquote {
+  color: #8265ff;
   font-size: 1.25rem;
   font-family: "Press Start 2P", monospace;
   margin-left: 25%;
@@ -118,11 +118,10 @@ blockquote{
   padding: 1.5rem;
   background: #17161b;
   text-shadow: 0.125rem 0.125rem#17161B;
-
 }
-.blockquote-author{
-text-align: right;
-  font-family: 'Concert One', monospace;
+.blockquote-author {
+  text-align: right;
+  font-family: "Concert One", monospace;
   background: #17161b;
   width: 20%;
   font-weight: 900;
@@ -131,26 +130,26 @@ text-align: right;
   margin-left: 50%;
   padding: 1rem;
 }
-.contact-title{
+.contact-title {
   font-size: 3rem;
   text-align: center;
 }
-.free{
+.free {
   color: #cccccc;
 }
-.bismarck{
+.bismarck {
   width: 80%;
   margin-left: 10%;
 }
-#bis3{
+#bis3 {
   max-width: 80%;
   margin-left: 10%;
 }
-#bis2{
+#bis2 {
   margin-left: 20%;
   margin-bottom: 3rem;
 }
 
-.bismarck-text{
-  color: #8265FF;
+.bismarck-text {
+  color: #8265ff;
 }
