@@ -123,6 +123,8 @@ blockquote {
   text-align: right;
   font-family: "Concert One", monospace;
   background: #17161b;
+  border: double 0.75rem #cccccc;
+
   width: 20%;
   font-weight: 900;
   font-size: 2rem;
