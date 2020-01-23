@@ -1,3 +1,4 @@
+//words that will be rotated on the page
 const database = [
   "HTML5",
   "CSS3",
@@ -31,17 +32,21 @@ const database = [
   "Pug",
   "Redux"
 ];
-const time = 800;
+//time between transitions
+const time = 1200;
 let i = 0;
 
 function changeText() {
-  document.getElementById("wordContainer").innerHTML = database[i];
+  //using getElementById this selects the wordTag html tag
+  document.getElementById("wordTag").innerHTML = database[i];
+ //creates endless loop of terms
   if (i < database.length - 1) {
     i++;
   } else {
     i = 0;
   }
+  //using time as parameter this calls changeText to shift between the skills emphasized
   setTimeout("changeText()", time);
 }
-
+//begins function on window load
 window.onload = changeText();
